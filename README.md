@@ -1,4 +1,7 @@
-# 🪰🧠 Mosca con cerebro — el conectoma de *Drosophila* controlando un cuerpo simulado
+# 🪰🧠 fly-connectome-mujoco
+
+**El conectoma completo de *Drosophila* (166,700 neuronas) controlando un cuerpo físico simulado en MuJoCo.**
+*Whole-brain Drosophila connectome driving a physics-simulated fly: it forages by smell, eats, escapes a predator by flight and lands — with decisions read from the real wiring.*
 
 > Una mosca virtual que **busca comida, come, huye de un depredador volando, aterriza y vuelve a comer**
 > en un mundo 3D — con las decisiones tomadas por la simulación de su **cerebro real**: las

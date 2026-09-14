@@ -1,0 +1,11 @@
+Escena 1: encendiendo comando de marcha DNp09...
+  motoneuronas de patas cruzaron 1.5 Hz a los 15 ms (tasa 1.67 Hz) -> DECISIÓN: caminar
+  t=1331 ms: llegó a la comida; estímulo gustativo ON
+  t=1507 ms: motoneuronas de probóscide > 6.0 Hz (176 ms) -> DECISIÓN: comer
+  t=2731 ms: estímulo looming (LPLC2) ON
+  t=3087 ms: ¡TTMn disparó! (356 ms tras el looming) -> DECISIÓN: despegar
+Escena 4: vuelo (política de imitación de vuelo); leyendo motoneuronas de vuelo DLM/DVM
+  (vuelo terminó en paso 2993)
+  tasa alas al final: 253.73 Hz
+Video: videos/dia_de_mosca.mp4 (468 frames, 19 s) | cómputo 370 s
+Gráfica: videos/dia_de_mosca_timeline.png

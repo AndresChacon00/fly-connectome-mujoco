@@ -1,0 +1,11 @@
+Sesgo lateral calibrado (olor simétrico): 79Hz:+0.178, 83Hz:+0.152, 92Hz:+0.131, 103Hz:+0.069, 115Hz:+0.012
+Mundo listo: 2 fuentes de comida; cerebro 166,700 neuronas, 107 regiones
+t=2.96s  llegó a la comida #1; MN probóscide 32.1 Hz -> COME
+t=3.56s  aparece un depredador a 6 cm (estímulo looming a LPLC2)
+t=4.33s  TTMn disparó (772 ms tras aparecer el depredador) -> DESPEGUE
+t=5.13s  escape completado; sigue volando y busca olor
+t=7.82s  aterrizando a 1.2 cm de la comida #2 (DN_olor 489.8 Hz)
+t=8.32s  contacto con el suelo (upright 1.00) -> vuelve a buscar caminando
+t=11.89s  llegó a la comida #2; MN probóscide 31.4 Hz -> COME
+t=12.81s  saciada de la comida #2 -> no queda comida: descansa
+Video: videos/vida_de_mosca.mp4 (1451 frames, 58 s de video, 14.5 s de vida) | cómputo 598 s

@@ -1,0 +1,17 @@
+# entorno
+.venv/
+__pycache__/
+*.pyc
+# datos grandes (ver data/README.md para descargarlos)
+data/*.csv
+data/*.npz
+data/*.parquet
+data/*.zip
+data/policies/
+# entrenamiento
+checkpoints/
+checkpoints_brain/
+checkpoints_shuffled/
+tb_logs/
+# temporales
+*.tmp

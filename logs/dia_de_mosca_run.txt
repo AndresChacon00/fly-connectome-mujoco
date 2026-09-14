@@ -1,0 +1,26 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789362602.763102   20000 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789362610.177001   20000 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\andres\Desktop\Personal\Mosca\.venv\Lib\site-packages\tensorflow_probability\python\__init__.py:57: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if (distutils.version.LooseVersion(tf.__version__) <
+C:\Users\andres\Desktop\Personal\Mosca\.venv\Lib\site-packages\tensorflow_probability\python\__init__.py:58: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  distutils.version.LooseVersion(required_tensorflow_version)):
+WARNING:tensorflow:From C:\Users\andres\Desktop\Personal\Mosca\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\andres\Desktop\Personal\Mosca\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.logging.TaskLevelStatusMessage is deprecated. Please use tf.compat.v1.logging.TaskLevelStatusMessage instead.
+
+WARNING:tensorflow:From C:\Users\andres\Desktop\Personal\Mosca\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.control_flow_v2_enabled is deprecated. Please use tf.compat.v1.control_flow_v2_enabled instead.
+
+Escena 1: encendiendo comando de marcha DNp09...
+  motoneuronas de patas cruzaron 1.5 Hz a los 15 ms (tasa 1.67 Hz) -> DECISIÓN: caminar
+  t=1331 ms: llegó a la comida; estímulo gustativo ON
+  t=1507 ms: motoneuronas de probóscide > 6.0 Hz (176 ms) -> DECISIÓN: comer
+  t=2731 ms: estímulo looming (LPLC2) ON
+  t=3087 ms: ¡TTMn disparó! (356 ms tras el looming) -> DECISIÓN: despegar
+Escena 4: vuelo (política de imitación de vuelo); leyendo motoneuronas de vuelo DLM/DVM
+  (vuelo terminó en paso 2993)
+  tasa alas al final: 253.73 Hz
+Video: videos/dia_de_mosca.mp4 (468 frames, 19 s) | cómputo 370 s
+Gráfica: videos/dia_de_mosca_timeline.png
+{'latencia_marcha_ms': 15, 'latencia_comer_ms': 176, 'latencia_escape_ms': 356}

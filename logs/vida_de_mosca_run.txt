@@ -1,0 +1,48 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789406181.697024   33132 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789406183.336247   33132 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\andres\Desktop\Personal\Mosca\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\andres\Desktop\Personal\Mosca\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.logging.TaskLevelStatusMessage is deprecated. Please use tf.compat.v1.logging.TaskLevelStatusMessage instead.
+
+WARNING:tensorflow:From C:\Users\andres\Desktop\Personal\Mosca\.venv\Lib\site-packages\tensorflow_probability\python\internal\backend\numpy\_utils.py:48: The name tf.control_flow_v2_enabled is deprecated. Please use tf.compat.v1.control_flow_v2_enabled instead.
+
+Sesgo lateral calibrado (olor simétrico): 79Hz:+0.178, 83Hz:+0.152, 92Hz:+0.131, 103Hz:+0.069, 115Hz:+0.012
+Mundo listo: 2 fuentes de comida; cerebro 166,700 neuronas, 107 regiones
+   t= 0.00s modo=BUSCA    pos=(  0.00,  0.00, 0.13) up= 1.00 hambre=1.00 patas=  0.0Hz probo=  0.0Hz c=0.18 rumbo_comida= +17 idx=+0.000 cómputo=   24s
+   t= 1.00s modo=BUSCA    pos=(  1.87,  0.20, 0.13) up= 1.00 hambre=1.00 patas= 20.1Hz probo= 16.8Hz c=0.32 rumbo_comida= -16 idx=+0.122 cómputo=   60s
+   t= 2.00s modo=BUSCA    pos=(  3.60,  1.17, 0.14) up= 1.00 hambre=1.00 patas= 19.9Hz probo= 18.5Hz c=0.62 rumbo_comida=  -6 idx=+0.043 cómputo=   96s
+t=2.96s  llegó a la comida #1; MN probóscide 32.1 Hz -> COME
+   t= 3.00s modo=COME     pos=(  4.42,  1.41, 0.14) up= 1.00 hambre=0.99 patas= 24.9Hz probo= 67.5Hz c=0.82 rumbo_comida= -13 idx=+0.008 cómputo=  132s
+t=3.56s  aparece un depredador a 6 cm (estímulo looming a LPLC2)
+   t= 4.00s modo=COME     pos=(  4.42,  1.41, 0.14) up= 1.00 hambre=0.64 patas= 25.1Hz probo= 88.2Hz c=0.82 rumbo_comida= -13 idx=+0.004 cómputo=  169s
+t=4.33s  TTMn disparó (772 ms tras aparecer el depredador) -> DESPEGUE
+   t= 5.00s modo=ESCAPA   pos=( 11.09,  8.67, 0.97) up= 0.76 hambre=0.52 patas= 17.1Hz probo= 86.1Hz c=0.21 rumbo_comida=-104 idx=+0.101 cómputo=  209s
+t=5.13s  escape completado; sigue volando y busca olor
+   t= 6.00s modo=VUELA    pos=( 19.16, 10.55, 0.98) up= 0.73 hambre=0.52 patas= 17.4Hz probo= 82.8Hz c=0.26 rumbo_comida= -19 idx=+0.121 cómputo=  253s
+   t= 7.00s modo=VUELA    pos=( 22.17,  1.07, 0.98) up= 0.74 hambre=0.52 patas= 15.2Hz probo= 16.1Hz c=0.59 rumbo_comida=  +5 idx=+0.041 cómputo=  298s
+t=7.82s  aterrizando a 1.2 cm de la comida #2 (DN_olor 489.8 Hz)
+   t= 8.00s modo=ATERRIZA pos=( 22.97, -5.57, 0.13) up= 1.00 hambre=0.52 patas= 22.3Hz probo= 17.2Hz c=0.67 rumbo_comida=+122 idx=+0.079 cómputo=  343s
+t=8.32s  contacto con el suelo (upright 1.00) -> vuelve a buscar caminando
+   t= 9.00s modo=BUSCA    pos=( 23.69, -6.63, 0.13) up= 0.99 hambre=0.52 patas= 20.0Hz probo= 15.5Hz c=0.58 rumbo_comida= +95 idx=+0.120 cómputo=  378s
+   t=10.00s modo=BUSCA    pos=( 24.99, -5.52, 0.13) up= 0.99 hambre=0.52 patas= 18.5Hz probo= 17.2Hz c=0.69 rumbo_comida= +56 idx=+0.083 cómputo=  417s
+   t=11.00s modo=BUSCA    pos=( 24.56, -4.82, 0.13) up= 0.99 hambre=0.52 patas= 30.1Hz probo= 15.6Hz c=0.82 rumbo_comida= +52 idx=+0.050 cómputo=  457s
+t=11.89s  llegó a la comida #2; MN probóscide 31.4 Hz -> COME
+   t=12.00s modo=COME     pos=( 24.55, -4.82, 0.13) up= 0.99 hambre=0.48 patas= 31.8Hz probo= 83.1Hz c=0.82 rumbo_comida= +53 idx=+0.046 cómputo=  498s
+t=12.81s  saciada de la comida #2 -> no queda comida: descansa
+   t=13.00s modo=DESCANSA pos=( 24.54, -4.82, 0.13) up= 1.00 hambre=0.00 patas= 18.0Hz probo= 81.8Hz c=0.00 rumbo_comida= +15 idx=+0.157 cómputo=  535s
+   t=14.00s modo=DESCANSA pos=( 24.54, -4.82, 0.13) up= 1.00 hambre=0.00 patas= 17.0Hz probo= 83.2Hz c=0.00 rumbo_comida= +15 idx=+0.171 cómputo=  571s
+Video: videos/vida_de_mosca.mp4 (1451 frames, 58 s de video, 14.5 s de vida) | cómputo 598 s
+Eventos:
+Sesgo lateral calibrado (olor simétrico): 79Hz:+0.178, 83Hz:+0.152, 92Hz:+0.131, 103Hz:+0.069, 115Hz:+0.012
+Mundo listo: 2 fuentes de comida; cerebro 166,700 neuronas, 107 regiones
+t=2.96s  llegó a la comida #1; MN probóscide 32.1 Hz -> COME
+t=3.56s  aparece un depredador a 6 cm (estímulo looming a LPLC2)
+t=4.33s  TTMn disparó (772 ms tras aparecer el depredador) -> DESPEGUE
+t=5.13s  escape completado; sigue volando y busca olor
+t=7.82s  aterrizando a 1.2 cm de la comida #2 (DN_olor 489.8 Hz)
+t=8.32s  contacto con el suelo (upright 1.00) -> vuelve a buscar caminando
+t=11.89s  llegó a la comida #2; MN probóscide 31.4 Hz -> COME
+t=12.81s  saciada de la comida #2 -> no queda comida: descansa
+Video: videos/vida_de_mosca.mp4 (1451 frames, 58 s de video, 14.5 s de vida) | cómputo 598 s

@@ -1,0 +1,24 @@
+# Python 3.11 (3.12 también debería funcionar; 3.14 NO: MuJoCo/dm_control no lo soportan)
+mujoco==3.13.0
+dm_control==1.0.46
+git+https://github.com/TuragaLab/flybody.git
+numpy
+pandas
+pyarrow
+scipy
+matplotlib
+imageio
+imageio-ffmpeg
+pillow
+# políticas pre-entrenadas de Janelia (SavedModel de TF 2.8)
+tensorflow
+tensorflow-probability
+tf-keras
+# fases 1 y 3 (aprendizaje por refuerzo)
+torch
+stable-baselines3
+gymnasium
+shimmy
+tensorboard
+tqdm
+rich
